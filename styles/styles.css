@@ -1,0 +1,23 @@
+@import url(./header.css);
+@import url(./produtos.css);
+@import url(./banner.css);
+@import url(./cards.css);
+@import url(./bannerpreto.css);
+@import url(./contato.css);
+@import url(./rodape.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+    font-family: var(--fonte);
+}
+
+:root { 
+    --preto: black;
+    --branco: white;
+    --fonte: 'inter';
+    --cinza: #343A40;
+    --amarelo: #DAFF01;
+    --roxo-botao: #9353FF;
+    --amarelo: #DAFF01;
+}
+

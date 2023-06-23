@@ -1,0 +1,48 @@
+.produtos__descritivos {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+}
+
+.card__titulo { 
+    font-weight: 700;
+    font-size: 16px;
+   
+}
+
+.card__texto { 
+    font-size: 13px;
+    font-weight: 400;
+    
+}
+
+.card__preco { 
+    font-weight: 700;
+    font-size: 16px;
+  
+}
+
+.card__preco, .card__texto, .card__titulo {
+    padding: 1em;
+   
+}
+
+.card__botao { 
+background-color: var(--roxo-botao);
+width: 70px;
+height: 19px;
+color: var(--branco);
+text-decoration: none;
+padding: 14px 16px;
+font-size: 16px;
+
+
+}
+
+.card__imagem { 
+    margin-top: 10%;
+}
+
+.tentando__borda { 
+    border: 1px solid var(--preto);
+}

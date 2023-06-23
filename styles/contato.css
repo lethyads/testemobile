@@ -1,0 +1,44 @@
+.contato { 
+    display: inline-block;
+    
+}
+
+.contato__texto {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.tentando_borda { 
+    border: 1px solid var(--preto);
+    width: 325px;
+    height: 100px;
+    padding: 1em 1em;
+    margin: 20px;
+}
+
+.contato__email {
+background-color: var(--branco);
+display: flex;
+justify-content: center;
+border: 1px solid black;
+width: 250px;
+height: 30px;
+
+}
+
+.flex-botao { 
+    display: flex;
+   
+}
+
+.contato__botao { 
+    background-color: var(--roxo-botao);
+    color: var(--branco);
+    /*width: 125px;
+    height: 34px;*/
+    text-align: center;
+    padding: 0.5em;
+}

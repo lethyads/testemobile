@@ -1,0 +1,36 @@
+.banner__preto {
+    background-color: var(--preto);
+
+}
+.banner__descricao {
+    color: var(--branco);
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+    padding: 1em;
+}
+
+.info__banner { 
+    color: var(--amarelo);
+    font-weight: 700;
+    size: 16px;
+}
+
+.banner__texto { 
+    color: var(--branco);
+    font-weight: 400;
+    font-size: 13px;
+    width: 200px;
+    padding: 1.5em 6em;
+
+}
+
+.pag-troca-sust {
+    display: flex;
+    gap: 10px;
+ 
+}
+
+.imagem__banner { 
+padding: 0 2em;
+}
